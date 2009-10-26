@@ -1,17 +1,23 @@
 Format-Specification:
     http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
-Upstream-Maintainer: Matt S Trout <mst@shadowcat.co.uk> http://www.shadowcat.co.uk/
+Upstream-Maintainer: Matt S Trout <mst@shadowcat.co.uk>
 Upstream-Source: http://search.cpan.org/dist/local-lib/
 Upstream-Name: local-lib
-Disclaimer: This copyright info was automatically extracted 
-    from the perl module. It may not be accurate, so you better 
-    check the module sources in order to ensure the module for its 
-    inclusion in Debian or for general legal information. Please, 
-    if licensing information is incorrectly generated, file a bug 
-    on dh-make-perl.
 
 Files: *
-Copyright: Matt S Trout <mst@shadowcat.co.uk> http://www.shadowcat.co.uk/
+Copyright: 2007-2009, Matt S Trout <mst@shadowcat.co.uk>
+ 2007-2009, Christopher Nehren <apeiron@cpan.org>
+ 2007-2009, Mark Stosberg <mark@summersault.com>
+ 2007-2009, Torsten Raudssus <torsten@raudssus.de>
+ 2007-2009, Hans Dieter Pearcey <hdp@cpan.org>
+ 2007-2009, Curtis Jewell <csjewell@cpan.org>
+License-Alias: Perl
+License: Artistic | GPL-1+
+
+Files: inc/Module/*
+Copyright: 2002-2009, Adam Kennedy <adamk@cpan.org>
+ 2002-2009, Audrey Tang <autrijus@autrijus.org>
+ 2002-2009, Brian Ingerson <ingy@cpan.org>
 License-Alias: Perl
 License: Artistic | GPL-1+
 
