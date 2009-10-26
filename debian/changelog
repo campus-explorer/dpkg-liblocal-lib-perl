@@ -1,0 +1,5 @@
+liblocal-lib-perl (1.004008-1) UNRELEASED; urgency=low
+
+  * Initial Release. (Closes: #533470)
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Mon, 26 Oct 2009 16:07:23 -0400

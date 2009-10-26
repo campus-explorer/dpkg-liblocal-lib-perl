@@ -1,0 +1,35 @@
+Source: liblocal-lib-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl (>= 5.8.100), perl-modules (>= 5.9.4)
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonathan Yu <jawnsy@cpan.org>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/local-lib/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/liblocal-lib-perl/
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/liblocal-lib-perl/
+
+Package: liblocal-lib-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, perl-modules (>= 5.9.4),
+  perl (>= 5.8.100)
+Description: create and use a local lib/ for perl modules with PERL5LIB
+ local::lib provides a quick, convenient way of bootstrapping a user-local
+ Perl module library located within the user's home directory. It also
+ constructs and prints out for the user the list of environment variables
+ using the syntax appropriate for the user's current shell (as specified by
+ the SHELL environment variable), suitable for directly adding to one's shell
+ configuration file.
+ .
+ More generally, local::lib allows for the bootstrapping and usage of a
+ directory containing Perl modules outside of Perl's @INC. This makes it
+ easier to ship an application with an app-specific copy of a Perl module, or
+ collection of modules. Useful in cases like when an upstream maintainer
+ hasn't applied a patch to a module of theirs that you need for your
+ application.
+ .
+ On import, local::lib sets the following environment variables to appropriate
+ values:
+ .
+ This description was automagically extracted from the module by dh-make-perl.
