@@ -1,6 +1,10 @@
 liblocal-lib-perl (1.004009-1) unstable; urgency=low
 
+  [ Jonathan Yu ]
   * New upstream release
+
+  [ gregor herrmann ]
+  * debian/rules: remove generated stuff in clean target.
 
  -- Jonathan Yu <jawnsy@cpan.org>  Thu, 19 Nov 2009 07:54:58 -0500
 
