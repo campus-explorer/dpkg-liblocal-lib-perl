@@ -1,11 +1,11 @@
-liblocal-lib-perl (1.005001-1) UNRELEASED; urgency=low
+liblocal-lib-perl (1.005001-1) unstable; urgency=low
 
   * New upstream release
   * Standards-Version 3.8.4 (no changes)
   * Use clean file instead of overriding dh_clean
   * Use new DEP5 copyright format
 
- -- Jonathan Yu <jawnsy@cpan.org>  Thu, 11 Mar 2010 10:27:34 -0500
+ -- Jonathan Yu <jawnsy@cpan.org>  Thu, 11 Mar 2010 10:31:41 -0500
 
 liblocal-lib-perl (1.004009-1) unstable; urgency=low
 
