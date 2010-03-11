@@ -1,8 +1,7 @@
-Format-Specification:
-    http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
-Upstream-Maintainer: Matt S Trout <mst@shadowcat.co.uk>
-Upstream-Source: http://search.cpan.org/dist/local-lib/
-Upstream-Name: local-lib
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=59
+Maintainer: Matt S Trout <mst@shadowcat.co.uk>
+Source: http://search.cpan.org/dist/local-lib/
+Name: local-lib
 
 Files: *
 Copyright: 2007-2009, Matt S Trout <mst@shadowcat.co.uk>
@@ -11,30 +10,31 @@ Copyright: 2007-2009, Matt S Trout <mst@shadowcat.co.uk>
  2007-2009, Torsten Raudssus <torsten@raudssus.de>
  2007-2009, Hans Dieter Pearcey <hdp@cpan.org>
  2007-2009, Curtis Jewell <csjewell@cpan.org>
-License-Alias: Perl
-License: Artistic | GPL-1+
+License: Artistic or GPL-1+
 
 Files: inc/Module/*
-Copyright: 2002-2009, Adam Kennedy <adamk@cpan.org>
- 2002-2009, Audrey Tang <autrijus@autrijus.org>
- 2002-2009, Brian Ingerson <ingy@cpan.org>
-License-Alias: Perl
-License: Artistic | GPL-1+
+Copyright: 2002-2010, Adam Kennedy <adamk@cpan.org>
+ 2002-2010, Audrey Tang <autrijus@autrijus.org>
+ 2002-2010, Brian Ingerson <ingy@cpan.org>
+License: Artistic or GPL-1+
 
 Files: debian/*
-Copyright: 2009, Jonathan Yu <jawnsy@cpan.org>
-License: Artistic | GPL-1+
+Copyright: 2009-2010, Jonathan Yu <jawnsy@cpan.org>
+License: Artistic or GPL-1+
 
 License: Artistic
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the Artistic License, which comes with Perl.
-    On Debian GNU/Linux systems, the complete text of the Artistic License
-    can be found in `/usr/share/common-licenses/Artistic'
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian GNU/Linux systems, the complete text of the Artistic License
+ can be found in `/usr/share/common-licenses/Artistic'
 
 License: GPL-1+
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 1, or (at your option)
-    any later version.
-    On Debian GNU/Linux systems, the complete text of the GNU General
-    Public License can be found in `/usr/share/common-licenses/GPL'
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian GNU/Linux systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL'
+
