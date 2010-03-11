@@ -1,8 +1,0 @@
-/t/var/splat
-t/dist/MB/Build
-t/dist/MB/_build
-t/dist/MB/blib
-t/dist/EUMM/Makefile
-t/dist/EUMM/pm_to_blib
-t/dist/EUMM/blib
-

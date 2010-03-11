@@ -2,3 +2,13 @@
 
 %:
 	dh $@
+
+override_dh_clean:
+	dh_clean
+	$(RM) $(CURDIR)/t/var/splat
+	$(RM) $(CURDIR)/t/dist/MB/Build
+	$(RM) $(CURDIR)/t/dist/MB/_build
+	$(RM) $(CURDIR)/t/dist/MB/blib
+	$(RM) $(CURDIR)/t/dist/EUMM/Makefile
+	$(RM) $(CURDIR)/t/dist/EUMM/pm_to_blib
+	$(RM) $(CURDIR)/t/dist/EUMM/blib
