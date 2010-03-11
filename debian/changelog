@@ -1,8 +1,12 @@
 liblocal-lib-perl (1.005001-1) unstable; urgency=low
 
+  [ Jonathan Yu ]
   * New upstream release
   * Standards-Version 3.8.4 (no changes)
   * Use new DEP5 copyright format
+
+  [ gregor herrmann ]
+  * (Build) depend on perl >= 5.10 to make sure we have CPAN 1.82.
 
  -- Jonathan Yu <jawnsy@cpan.org>  Thu, 11 Mar 2010 11:32:27 -0500
 
