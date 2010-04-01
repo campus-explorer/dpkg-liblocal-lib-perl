@@ -1,6 +1,8 @@
 liblocal-lib-perl (1.006000-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Convert to source format 3.0 (quilt).
+  * Add /me to Uploaders.
 
  -- gregor herrmann <gregoa@debian.org>  Thu, 01 Apr 2010 21:46:31 +0200
 
