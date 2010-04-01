@@ -1,7 +1,7 @@
 Source: liblocal-lib-perl
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 7.0.50)
+Build-Depends: debhelper (>= 7.2.13)
 Build-Depends-Indep: perl (>= 5.10), libcapture-tiny-perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Jonathan Yu <jawnsy@cpan.org>, gregor herrmann <gregoa@debian.org>
