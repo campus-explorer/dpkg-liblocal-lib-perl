@@ -1,11 +1,11 @@
-liblocal-lib-perl (1.006000-1) UNRELEASED; urgency=low
+liblocal-lib-perl (1.006000-1) unstable; urgency=low
 
   * New upstream release.
   * Convert to source format 3.0 (quilt).
   * Add /me to Uploaders.
   * Bump debhelper dependency to 7.2.13 (Module::AutoInstall).
 
- -- gregor herrmann <gregoa@debian.org>  Thu, 01 Apr 2010 21:46:31 +0200
+ -- gregor herrmann <gregoa@debian.org>  Thu, 01 Apr 2010 21:59:32 +0200
 
 liblocal-lib-perl (1.005001-1) unstable; urgency=low
 
