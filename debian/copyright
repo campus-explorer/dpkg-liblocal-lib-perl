@@ -1,15 +1,15 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=59
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
 Maintainer: Matt S Trout <mst@shadowcat.co.uk>
 Source: http://search.cpan.org/dist/local-lib/
 Name: local-lib
 
 Files: *
-Copyright: 2007-2009, Matt S Trout <mst@shadowcat.co.uk>
- 2007-2009, Christopher Nehren <apeiron@cpan.org>
- 2007-2009, Mark Stosberg <mark@summersault.com>
- 2007-2009, Torsten Raudssus <torsten@raudssus.de>
- 2007-2009, Hans Dieter Pearcey <hdp@cpan.org>
- 2007-2009, Curtis Jewell <csjewell@cpan.org>
+Copyright: 2007-2010, Matt S Trout <mst@shadowcat.co.uk>
+ 2007-2010, Christopher Nehren <apeiron@cpan.org>
+ 2007-2010, Mark Stosberg <mark@summersault.com>
+ 2007-2010, Torsten Raudssus <torsten@raudssus.de>
+ 2007-2010, Hans Dieter Pearcey <hdp@cpan.org>
+ 2007-2010, Curtis Jewell <csjewell@cpan.org>
 License: Artistic or GPL-1+
 
 Files: inc/Module/*
@@ -19,7 +19,8 @@ Copyright: 2002-2010, Adam Kennedy <adamk@cpan.org>
 License: Artistic or GPL-1+
 
 Files: debian/*
-Copyright: 2009-2010, Jonathan Yu <jawnsy@cpan.org>
+Copyright: 2009, 2010, Jonathan Yu <jawnsy@cpan.org>
+ 2010, Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
  2010, gregor herrmann <gregoa@debian.org>
 License: Artistic or GPL-1+
 
@@ -38,4 +39,3 @@ License: GPL-1+
  .
  On Debian GNU/Linux systems, the complete text of the GNU General
  Public License can be found in `/usr/share/common-licenses/GPL'
-
