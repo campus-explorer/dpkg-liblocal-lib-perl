@@ -4,8 +4,9 @@ liblocal-lib-perl (1.006004-1) UNRELEASED; urgency=low
   * debian/copyright: update to revision 135 of DEP5 format-
     specification for machine readable copyright file. Update upstreams
     copyright years to -2007-2010, as german translation included.
+  * Add myself to Uploaders.
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Fri, 11 Jun 2010 10:22:45 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Fri, 11 Jun 2010 10:25:39 +0200
 
 liblocal-lib-perl (1.006000-1) unstable; urgency=low
 
