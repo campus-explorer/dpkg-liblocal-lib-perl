@@ -1,4 +1,4 @@
-liblocal-lib-perl (1.006004-1) UNRELEASED; urgency=low
+liblocal-lib-perl (1.006004-1) unstable; urgency=low
 
   * New upstream release
   * debian/copyright: update to revision 135 of DEP5 format-
@@ -8,7 +8,7 @@ liblocal-lib-perl (1.006004-1) UNRELEASED; urgency=low
   * debian/rules: Remove installed lib.pod in
     /usr/share/perl5/POD2/DE/local.
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 12 Jun 2010 09:51:51 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 12 Jun 2010 10:02:18 +0200
 
 liblocal-lib-perl (1.006000-1) unstable; urgency=low
 
