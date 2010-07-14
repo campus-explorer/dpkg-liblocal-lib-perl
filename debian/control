@@ -6,7 +6,7 @@ Build-Depends-Indep: perl (>= 5.10), libcapture-tiny-perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Jonathan Yu <jawnsy@cpan.org>, gregor herrmann <gregoa@debian.org>,
  Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
-Standards-Version: 3.8.4
+Standards-Version: 3.9.0
 Homepage: http://search.cpan.org/dist/local-lib/
 Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/liblocal-lib-perl/
 Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/liblocal-lib-perl/
