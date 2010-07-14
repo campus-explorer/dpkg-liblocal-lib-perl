@@ -1,9 +1,9 @@
-liblocal-lib-perl (1.006005-1) UNRELEASED; urgency=low
+liblocal-lib-perl (1.006005-1) unstable; urgency=low
 
   * New upstream release
   * Bump Standards-Version to 3.9.0 (no changes needed).
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Wed, 14 Jul 2010 07:24:13 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Wed, 14 Jul 2010 07:31:43 +0200
 
 liblocal-lib-perl (1.006004-1) unstable; urgency=low
 
