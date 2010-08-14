@@ -21,3 +21,6 @@ override_dh_auto_install:
 	# Remove installed /usr/share/perl5/POD2/DE/local/lib.pod
 	rm $(TMP)/usr/share/perl5/POD2/DE/local/lib.pod
 	rmdir --ignore-fail-on-non-empty --parents --verbose $(TMP)/usr/share/perl5/POD2/DE/local
+	# Remove installed /usr/share/perl5/POD2/PT_BR/local/lib.pod
+	rm $(TMP)/usr/share/perl5/POD2/PT_BR/local/lib.pod
+	rmdir --ignore-fail-on-non-empty --parents --verbose $(TMP)/usr/share/perl5/POD2/PT_BR/local

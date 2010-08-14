@@ -5,8 +5,10 @@ liblocal-lib-perl (1.006007-1) UNRELEASED; urgency=low
   * debian/control: Make versioned (Build-)Depends(-Indep) on perl
     unversioned.
   * debian/copyright: Update upstream copyright stanza.
+  * debian/rules: Do not install portuguese translation of lib.pod in
+    /usr/share/perl5/POD2/PT_BR.
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 14 Aug 2010 11:18:55 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 14 Aug 2010 11:27:01 +0200
 
 liblocal-lib-perl (1.006005-1) unstable; urgency=low
 
