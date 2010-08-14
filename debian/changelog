@@ -2,8 +2,10 @@ liblocal-lib-perl (1.006007-1) UNRELEASED; urgency=low
 
   * New upstream release
   * Bump Standards-Version to 3.9.1 (no changes needed).
+  * debian/control: Make versioned (Build-)Depends(-Indep) on perl
+    unversioned.
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 14 Aug 2010 11:10:31 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 14 Aug 2010 11:15:01 +0200
 
 liblocal-lib-perl (1.006005-1) unstable; urgency=low
 
