@@ -1,10 +1,12 @@
 liblocal-lib-perl (1.006007-1) UNRELEASED; urgency=low
 
   * New upstream release
-  * Bump Standards-Version to 3.9.1 (no changes needed).
+  * Bump Standards-Version to 3.9.1.
   * debian/control: Make versioned (Build-)Depends(-Indep) on perl
     unversioned.
-  * debian/copyright: Update upstream copyright stanza.
+  * debian/copyright:
+    - Update upstream copyright stanza.
+    - Explicitly reference GPL-1 license text in common-licenses.
   * debian/rules: Do not install portuguese translation of lib.pod in
     /usr/share/perl5/POD2/PT_BR.
 
