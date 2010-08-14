@@ -9,8 +9,10 @@ liblocal-lib-perl (1.006007-1) UNRELEASED; urgency=low
     - Explicitly reference GPL-1 license text in common-licenses.
   * debian/rules: Do not install portuguese translation of lib.pod in
     /usr/share/perl5/POD2/PT_BR.
+  * Add lintian override for false-positive spelling error due to report
+    of translated manpage.
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 14 Aug 2010 11:27:01 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 14 Aug 2010 11:37:34 +0200
 
 liblocal-lib-perl (1.006005-1) unstable; urgency=low
 
