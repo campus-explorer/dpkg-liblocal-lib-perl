@@ -10,6 +10,7 @@ Copyright: 2007-2010, Matt S Trout <mst@shadowcat.co.uk>
  2007-2010, Torsten Raudssus <torsten@raudssus.de>
  2007-2010, Hans Dieter Pearcey <hdp@cpan.org>
  2007-2010, Curtis Jewell <csjewell@cpan.org>
+ 2007-2010, Breno G. de Oliveira <garu@cpan.org>
 License: Artistic or GPL-1+
 
 Files: inc/Module/*
