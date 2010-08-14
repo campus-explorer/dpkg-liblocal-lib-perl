@@ -1,4 +1,4 @@
-liblocal-lib-perl (1.006007-1) UNRELEASED; urgency=low
+liblocal-lib-perl (1.006007-1) unstable; urgency=low
 
   * New upstream release
   * Bump Standards-Version to 3.9.1.
@@ -12,7 +12,7 @@ liblocal-lib-perl (1.006007-1) UNRELEASED; urgency=low
   * Add lintian override for false-positive spelling error due to report
     of translated manpage.
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 14 Aug 2010 11:37:34 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 14 Aug 2010 11:37:53 +0200
 
 liblocal-lib-perl (1.006005-1) unstable; urgency=low
 
