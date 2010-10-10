@@ -5,7 +5,7 @@ Build-Depends: debhelper (>= 7.2.13)
 Build-Depends-Indep: perl, libcapture-tiny-perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Jonathan Yu <jawnsy@cpan.org>, gregor herrmann <gregoa@debian.org>,
- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
+ Salvatore Bonaccorso <carnil@debian.org>
 Standards-Version: 3.9.1
 Homepage: http://search.cpan.org/dist/local-lib/
 Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/liblocal-lib-perl/
