@@ -11,9 +11,8 @@ liblocal-lib-perl (1.006007-1) unstable; urgency=low
     /usr/share/perl5/POD2/PT_BR.
   * Add lintian override for false-positive spelling error due to report
     of translated manpage.
-  * Update carnil's email address
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 10 Oct 2010 14:28:54 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sat, 14 Aug 2010 11:37:53 +0200
 
 liblocal-lib-perl (1.006005-1) unstable; urgency=low
 
