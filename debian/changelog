@@ -1,3 +1,9 @@
+liblocal-lib-perl (1.006007-2) UNRELEASED; urgency=low
+
+  * Update carnil's email address
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 10 Oct 2010 15:03:09 +0200
+
 liblocal-lib-perl (1.006007-1) unstable; urgency=low
 
   * New upstream release
