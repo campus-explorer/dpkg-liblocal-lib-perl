@@ -2,8 +2,10 @@ liblocal-lib-perl (1.006008-1) UNRELEASED; urgency=low
 
   * New upstream release
   * Update my email address.
+  * debian/copyright: Refer to Debian systems instead of Debian
+    GNU/Linux systems.
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 10 Oct 2010 15:03:09 +0200
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 18 Nov 2010 07:33:14 +0100
 
 liblocal-lib-perl (1.006007-1) unstable; urgency=low
 
