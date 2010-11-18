@@ -1,5 +1,12 @@
 liblocal-lib-perl (1.006008-1) UNRELEASED; urgency=low
 
+  # TODO: investigate the test failure:
+  # t/de-dup.t ........... ok
+  # 
+  # #   Failed test 'MB.pm installed into the correct location'
+  # #   at t/install.t line 35.
+  # # Looks like you failed 1 test of 2.
+
   * New upstream release
   * Update my email address.
   * debian/copyright: Refer to Debian systems instead of Debian
