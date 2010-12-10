@@ -1,18 +1,12 @@
-liblocal-lib-perl (1.006008-1) UNRELEASED; urgency=low
-
-  # TODO: investigate the test failure:
-  # t/de-dup.t ........... ok
-  # 
-  # #   Failed test 'MB.pm installed into the correct location'
-  # #   at t/install.t line 35.
-  # # Looks like you failed 1 test of 2.
+liblocal-lib-perl (1.007000-1) UNRELEASED; urgency=low
 
   * New upstream release
   * Update my email address.
   * debian/copyright: Refer to Debian systems instead of Debian
     GNU/Linux systems.
+  * Add libmodule-build-perl (>= 0.36) to (Build-)Depends(-Indep).
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 18 Nov 2010 07:33:14 +0100
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 10 Dec 2010 15:58:26 +0100
 
 liblocal-lib-perl (1.006007-1) unstable; urgency=low
 
