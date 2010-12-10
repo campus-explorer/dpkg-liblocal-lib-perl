@@ -1,4 +1,4 @@
-liblocal-lib-perl (1.007000-1) UNRELEASED; urgency=low
+liblocal-lib-perl (1.007000-1) unstable; urgency=low
 
   * New upstream release
   * Update my email address.
@@ -6,7 +6,7 @@ liblocal-lib-perl (1.007000-1) UNRELEASED; urgency=low
     GNU/Linux systems.
   * Add libmodule-build-perl (>= 0.36) to (Build-)Depends(-Indep).
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 10 Dec 2010 15:58:26 +0100
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 10 Dec 2010 16:11:27 +0100
 
 liblocal-lib-perl (1.006007-1) unstable; urgency=low
 
