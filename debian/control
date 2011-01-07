@@ -2,10 +2,12 @@ Source: liblocal-lib-perl
 Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7.2.13)
-Build-Depends-Indep: perl, libcapture-tiny-perl,
- libmodule-build-perl (>= 0.360000)
+Build-Depends-Indep: libcapture-tiny-perl,
+ libmodule-build-perl (>= 0.360000),
+ perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: Jonathan Yu <jawnsy@cpan.org>, gregor herrmann <gregoa@debian.org>,
+Uploaders: Jonathan Yu <jawnsy@cpan.org>,
+ gregor herrmann <gregoa@debian.org>,
  Salvatore Bonaccorso <carnil@debian.org>
 Standards-Version: 3.9.1
 Homepage: http://search.cpan.org/dist/local-lib/
@@ -14,7 +16,7 @@ Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/liblocal-lib-perl/
 
 Package: liblocal-lib-perl
 Architecture: all
-Depends: ${perl:Depends}, ${misc:Depends},
+Depends: ${misc:Depends}, ${perl:Depends},
  libmodule-build-perl (>= 0.360000)
 Suggests: libcapture-tiny-perl
 Description: module to use a local path for Perl modules

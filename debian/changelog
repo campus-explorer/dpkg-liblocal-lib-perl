@@ -1,8 +1,12 @@
-liblocal-lib-perl (1.008000-1) UNRELEASED; urgency=low
+liblocal-lib-perl (1.008000-1) unstable; urgency=low
 
   * New upstream release
+  * debian/control: Refresh (Build-)Depends(-Indep) and Uploaders
+    fields.
+  * debian/copyright: Refresh copyright years for debian/* packaging
+    stanza.
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 07 Jan 2011 08:32:17 +0100
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 07 Jan 2011 09:09:36 +0100
 
 liblocal-lib-perl (1.007000-1) unstable; urgency=low
 
