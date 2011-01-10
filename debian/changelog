@@ -1,3 +1,9 @@
+liblocal-lib-perl (1.008001-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 10 Jan 2011 15:21:28 +0100
+
 liblocal-lib-perl (1.008000-1) unstable; urgency=low
 
   * New upstream release
