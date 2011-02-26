@@ -1,6 +1,7 @@
 liblocal-lib-perl (1.008004-1) unstable; urgency=low
 
   * New upstream release
+  * Add myself to Uploaders
 
  -- Alessandro Ghedini <al3xbio@gmail.com>  Sat, 26 Feb 2011 11:13:48 +0100
 
