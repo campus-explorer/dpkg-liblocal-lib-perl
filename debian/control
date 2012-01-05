@@ -1,7 +1,7 @@
 Source: liblocal-lib-perl
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 7.2.13)
+Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: libcapture-tiny-perl,
  perl (>= 5.11.3) | libmodule-build-perl (>= 0.360000),
  perl
