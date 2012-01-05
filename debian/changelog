@@ -1,4 +1,4 @@
-liblocal-lib-perl (1.008004-2) UNRELEASED; urgency=low
+liblocal-lib-perl (1.008004-2) unstable; urgency=low
 
   [ Ansgar Burchardt ]
   * debian/control: Convert Vcs-* fields to Git.
@@ -7,7 +7,15 @@ liblocal-lib-perl (1.008004-2) UNRELEASED; urgency=low
   * debian/copyright: Replace DEP5 Format-Specification URL from
     svn.debian.org to anonscm.debian.org URL.
 
- -- Ansgar Burchardt <ansgar@debian.org>  Wed, 27 Jul 2011 18:45:16 +0200
+  [ gregor herrmann ]
+  * Add perl as an alternative (build) dependency to libmodule-build-perl.
+  * Switch to debhelper compatibility level 8.
+  * Bump Standards-Version to 3.9.2 (no changes).
+  * Update years of packaging copyright.
+  * Move localized manpages into correct directories. Remove now unneeded
+    lintian override.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 05 Jan 2012 15:59:55 +0100
 
 liblocal-lib-perl (1.008004-1) unstable; urgency=low
 
