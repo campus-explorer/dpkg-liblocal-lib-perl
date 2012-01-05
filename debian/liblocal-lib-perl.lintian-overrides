@@ -1,3 +1,0 @@
-# Spelling-error-in-manpage is false-positive here as it is 
-# german translation of the word.
-spelling-error-in-manpage usr/share/man/man3/POD2::DE::local::lib.3pm.gz Programm Program
