@@ -3,7 +3,7 @@ Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7.2.13)
 Build-Depends-Indep: libcapture-tiny-perl,
- libmodule-build-perl (>= 0.360000),
+ perl (>= 5.11.3) | libmodule-build-perl (>= 0.360000),
  perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Jonathan Yu <jawnsy@cpan.org>,
@@ -18,7 +18,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/liblocal-lib-
 Package: liblocal-lib-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends},
- libmodule-build-perl (>= 0.360000)
+ perl (>= 5.11.3) | libmodule-build-perl (>= 0.360000)
 Suggests: libcapture-tiny-perl
 Description: module to use a local path for Perl modules
  local::lib is a Perl module that provides a quick, convenient way of setting
