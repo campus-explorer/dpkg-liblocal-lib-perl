@@ -1,3 +1,9 @@
+liblocal-lib-perl (1.008004-3) UNRELEASED; urgency=low
+
+  * Email change: Alessandro Ghedini -> ghedo@debian.org
+
+ -- Alessandro Ghedini <ghedo@debian.org>  Thu, 29 Mar 2012 15:50:21 +0200
+
 liblocal-lib-perl (1.008004-2) unstable; urgency=low
 
   [ Ansgar Burchardt ]

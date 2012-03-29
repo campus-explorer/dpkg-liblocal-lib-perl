@@ -9,7 +9,7 @@ Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Jonathan Yu <jawnsy@cpan.org>,
  gregor herrmann <gregoa@debian.org>,
  Salvatore Bonaccorso <carnil@debian.org>,
- Alessandro Ghedini <al3xbio@gmail.com>
+ Alessandro Ghedini <ghedo@debian.org>
 Standards-Version: 3.9.2
 Homepage: http://search.cpan.org/dist/local-lib/
 Vcs-Git: git://git.debian.org/pkg-perl/packages/liblocal-lib-perl.git
