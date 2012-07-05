@@ -1,6 +1,10 @@
 liblocal-lib-perl (1.008004-3) UNRELEASED; urgency=low
 
+  [ Alessandro Ghedini ]
   * Email change: Alessandro Ghedini -> ghedo@debian.org
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
 
  -- Alessandro Ghedini <ghedo@debian.org>  Thu, 29 Mar 2012 15:50:21 +0200
 
