@@ -1,24 +1,25 @@
 Source: liblocal-lib-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonathan Yu <jawnsy@cpan.org>,
+           gregor herrmann <gregoa@debian.org>,
+           Salvatore Bonaccorso <carnil@debian.org>,
+           Alessandro Ghedini <ghedo@debian.org>
 Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: libcapture-tiny-perl,
- perl (>= 5.11.3) | libmodule-build-perl (>= 0.360000),
- perl
-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: Jonathan Yu <jawnsy@cpan.org>,
- gregor herrmann <gregoa@debian.org>,
- Salvatore Bonaccorso <carnil@debian.org>,
- Alessandro Ghedini <ghedo@debian.org>
+                     perl (>= 5.11.3) | libmodule-build-perl,
+                     perl
 Standards-Version: 3.9.2
-Homepage: http://search.cpan.org/dist/local-lib/
-Vcs-Git: git://git.debian.org/pkg-perl/packages/liblocal-lib-perl.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/liblocal-lib-perl.git
+Vcs-Git: git://git.debian.org/pkg-perl/packages/liblocal-lib-perl.git
+Homepage: http://search.cpan.org/dist/local-lib/
 
 Package: liblocal-lib-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends},
- perl (>= 5.11.3) | libmodule-build-perl (>= 0.360000)
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         perl (>= 5.11.3) | libmodule-build-perl
 Suggests: libcapture-tiny-perl
 Description: module to use a local path for Perl modules
  local::lib is a Perl module that provides a quick, convenient way of setting
@@ -33,3 +34,4 @@ Description: module to use a local path for Perl modules
  an application with an app-specific copy of a Perl module, or collection of
  modules. It is also useful for the case where an upstream maintainer hasn't
  applied a patch to a module of theirs that you need for your application.
+
