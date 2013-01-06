@@ -6,6 +6,9 @@ liblocal-lib-perl (1.008004-3) UNRELEASED; urgency=low
   [ gregor herrmann ]
   * debian/control: update {versioned,alternative} (build) dependencies.
 
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+
  -- Alessandro Ghedini <ghedo@debian.org>  Thu, 29 Mar 2012 15:50:21 +0200
 
 liblocal-lib-perl (1.008004-2) unstable; urgency=low
