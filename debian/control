@@ -12,7 +12,7 @@ Build-Depends-Indep: libcapture-tiny-perl,
                      perl
 Standards-Version: 3.9.2
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/liblocal-lib-perl.git
-Vcs-Git: git://git.debian.org/pkg-perl/packages/liblocal-lib-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/liblocal-lib-perl.git
 Homepage: http://search.cpan.org/dist/local-lib/
 
 Package: liblocal-lib-perl
