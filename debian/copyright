@@ -1,6 +1,6 @@
 Format-Specification: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=135
 Maintainer: Matt S Trout <mst@shadowcat.co.uk>
-Source: http://search.cpan.org/dist/local-lib/
+Source: https://metacpan.org/release/local-lib/
 Name: local-lib
 
 Files: *
