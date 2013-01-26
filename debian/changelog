@@ -8,6 +8,7 @@ liblocal-lib-perl (1.008004-3) UNRELEASED; urgency=low
 
   [ Salvatore Bonaccorso ]
   * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
 
  -- Alessandro Ghedini <ghedo@debian.org>  Thu, 29 Mar 2012 15:50:21 +0200
 
