@@ -1,4 +1,6 @@
-liblocal-lib-perl (1.008004-3) UNRELEASED; urgency=low
+liblocal-lib-perl (1.008006-1) UNRELEASED; urgency=low
+
+  WAITS-FOR: wheezy release
 
   [ Alessandro Ghedini ]
   * Email change: Alessandro Ghedini -> ghedo@debian.org
@@ -7,8 +9,15 @@ liblocal-lib-perl (1.008004-3) UNRELEASED; urgency=low
   * debian/control: update {versioned,alternative} (build) dependencies.
 
   [ Salvatore Bonaccorso ]
+  * Imported Upstream version 1.008006
   * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
   * Change search.cpan.org based URIs to metacpan.org based URIs
+  * Update debian/copyright file information.
+    Update format to copyright-format 1.0 as released together with Debian
+    policy 3.9.3.
+    Update copyright years for included copy of Module::Install.
+    Update copyright years for debian/* packaging.
+  * Bump Standards-Version to 3.9.4
 
  -- Alessandro Ghedini <ghedo@debian.org>  Thu, 29 Mar 2012 15:50:21 +0200
 
