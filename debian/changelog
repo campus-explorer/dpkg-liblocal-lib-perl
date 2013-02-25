@@ -1,4 +1,4 @@
-liblocal-lib-perl (1.008008-1) UNRELEASED; urgency=low
+liblocal-lib-perl (1.008009-1) UNRELEASED; urgency=low
 
   WAITS-FOR: wheezy release
 
@@ -9,7 +9,7 @@ liblocal-lib-perl (1.008008-1) UNRELEASED; urgency=low
   * debian/control: update {versioned,alternative} (build) dependencies.
 
   [ Salvatore Bonaccorso ]
-  * Imported Upstream version 1.008006, 1.008007 and 1.008008
+  * Imported Upstream version 1.008006, 1.008007, 1.008008 and 1.008009
   * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
   * Change search.cpan.org based URIs to metacpan.org based URIs
   * Update debian/copyright file information.
