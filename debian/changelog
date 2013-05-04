@@ -1,7 +1,5 @@
 liblocal-lib-perl (1.008009-1) UNRELEASED; urgency=low
 
-  WAITS-FOR: wheezy release
-
   [ Alessandro Ghedini ]
   * Email change: Alessandro Ghedini -> ghedo@debian.org
 
