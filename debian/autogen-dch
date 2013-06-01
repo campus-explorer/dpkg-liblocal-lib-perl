@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use autodie ':all';
+
+my %numeric = (
+    lucid   => '10.04',
+    precise => '12.04',
+    quantal => '12.10',
+    raring  => '13.04',
+    saucy   => '13.10', # active development!
+);
+
+my $current_branch = `git rev-parse --abbrev-ref HEAD`;
+chomp $current_branch;
+(my $series = $current_branch) =~ s!^.*/!!;
+
+system "dch -b --local '~$numeric{$series}~ppa' -D $series 'Build for $series.'";
+system 'git commit -a -m "`head -1 debian/changelog`"';
+
+exit;
