@@ -1,3 +1,9 @@
+liblocal-lib-perl (1.008011-1) unstable; urgency=low
+
+  * Imported Upstream version 1.008011
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 07 Aug 2013 21:36:33 +0200
+
 liblocal-lib-perl (1.008010-1) unstable; urgency=low
 
   * Imported Upstream version 1.008010
