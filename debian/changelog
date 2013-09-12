@@ -1,3 +1,9 @@
+liblocal-lib-perl (1.008015-1~10.04~ppa1) lucid; urgency=low
+
+  * Build for lucid.
+
+ -- Chris Weyl <cweyl@alumni.drew.edu>  Thu, 12 Sep 2013 16:25:48 -0700
+
 liblocal-lib-perl (1.008015-1) UNRELEASED; urgency=low
 
   * New Upstream Version
