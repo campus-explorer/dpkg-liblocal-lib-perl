@@ -1,8 +1,8 @@
-liblocal-lib-perl (1.008014-1~12.04~ppa1) precise; urgency=low
+liblocal-lib-perl (1.008015-1) UNRELEASED; urgency=low
 
-  * Build for precise.
+  * New Upstream Version
 
- -- Chris Weyl <cweyl@alumni.drew.edu>  Thu, 12 Sep 2013 14:57:29 -0700
+ -- Chris Weyl <cweyl@alumni.drew.edu>  Thu, 12 Sep 2013 16:22:19 -0700
 
 liblocal-lib-perl (1.008014-1) UNRELEASED; urgency=low
 
