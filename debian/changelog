@@ -1,3 +1,9 @@
+liblocal-lib-perl (1.008014-1) UNRELEASED; urgency=low
+
+  * Update to latest upstream.
+
+ -- Chris Weyl <cweyl@alumni.drew.edu>  Thu, 12 Sep 2013 13:46:07 -0700
+
 liblocal-lib-perl (1.008011-1) unstable; urgency=low
 
   * Imported Upstream version 1.008011
