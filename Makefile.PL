@@ -6,7 +6,7 @@ use vars qw($bootstrapping $bootstrapping_args $no_manpages);
 use Config;
 
 # Solaris (and possibly other Unices) have a tar in /usr/bin that, among
-# other things, does not understand @LongLink. This can cause 
+# other things, does not understand @LongLink. This can cause
 # extraction to look like it succeeded, but it actually failed (because
 # the error message for the @LongLink failure scrolled offscreen).
 # Therefore, given the fact that GNU tar is the most widespread tar available,
@@ -45,7 +45,8 @@ BEGIN {
   # dashes, it's better to die loudly telling the user exactly what happened
   # so they don't make the same mistake again rather than being the only
   # program in the universe that works with them.
-  if(grep { /−/ } @ARGV) {
+  # the fancy dash is U+2212 or \xE2\x88\x92
+  if(grep { /\xE2\x88\x92/ } @ARGV or grep { /−/ } @ARGV) {
       die <<'DEATH';
 WHOA THERE! It looks like you've got some fancy dashes in your commandline!
 These are *not* the traditional -- dashes that software recognizes. You
@@ -106,7 +107,7 @@ DEATH
          }
          return $orig->(@_);
        };
-       # not yet -- apeiron, 2010-03-10 
+       # not yet -- apeiron, 2010-03-10
        #$CPAN::Config->{urllist} = ["http://cpan.shadowcatprojects.net"];
        # <mst> all bootstrapped fine on one DH account
        # <mst> on another, it tries to install man stuff into /usr/local
@@ -158,10 +159,10 @@ DEATH
       system($^X, '-MCPAN', '-e', $cpan_config_command)
         unless $did_cpan_config;
       system($^X, '-MCPAN',
-        '-e', 
+        '-e',
         q[CPAN::HandleConfig->load;],
-        '-e', 
-        q[$CPAN::Config->{makepl_arg}  = ] . 
+        '-e',
+        q[$CPAN::Config->{makepl_arg}  = ] .
           q['INSTALLMAN1DIR=none INSTALLMAN3DIR=none';],
         '-e',
         q[$CPAN::Config->{buildpl_arg} = ] .
@@ -183,24 +184,26 @@ all_from 'lib/local/lib.pm';
 requires 'ExtUtils::MakeMaker' => '6.31'; # version INSTALL_BASE was added
 requires 'ExtUtils::Install' => '1.43'; # ditto
 requires 'Module::Build' => '0.36'; # PERL_MB_OPT
-my $required_CPAN = '1.82';
-requires 'CPAN' => $required_CPAN; # sudo support + CPAN::HandleConfig
 
-# No, really. See
-# https://rt.cpan.org/Public/Bug/Display.html?id=23735
-# for why CPAN now sets the CPANPLUS env var.
-# trouble is this means we can't auto_install(_now) CPAN itself
-# without this beautiful hack
+# don't bother fixing CPAN.pm if bootstrapped from cpanminus
+unless ($ENV{PERL5_CPANM_IS_RUNNING}) {
+    my $required_CPAN = '1.82';
+    requires 'CPAN' => $required_CPAN; # sudo support + CPAN::HandleConfig
 
-my $no_cpanplus_env = !exists $ENV{PERL5_CPANPLUS_IS_RUNNING};
-my $no_cpan_env = !exists $ENV{PERL5_CPAN_IS_RUNNING};
-require CPAN;
-delete $ENV{PERL5_CPANPLUS_IS_RUNNING} if $no_cpanplus_env;
-delete $ENV{PERL5_CPAN_IS_RUNNING} if $no_cpan_env;
+    # No, really. See
+    # https://rt.cpan.org/Public/Bug/Display.html?id=23735
+    # for why CPAN now sets the CPANPLUS env var.
+    # trouble is this means we can't auto_install(_now) CPAN itself
+    # without this beautiful hack
 
-# and make sure that the user doesn't have any existing CPAN config that'll
-# cause us problems for the next few steps.
-{
+    my $no_cpanplus_env = !exists $ENV{PERL5_CPANPLUS_IS_RUNNING};
+    my $no_cpan_env = !exists $ENV{PERL5_CPAN_IS_RUNNING};
+    require CPAN;
+    delete $ENV{PERL5_CPANPLUS_IS_RUNNING} if $no_cpanplus_env;
+    delete $ENV{PERL5_CPAN_IS_RUNNING} if $no_cpan_env;
+
+    # and make sure that the user doesn't have any existing CPAN config that'll
+    # cause us problems for the next few steps.
     local $@;
     eval { require CPAN::HandleConfig; };
     # Need newish CPAN.pm for this, ergo skip it if that version of CPAN isn't
