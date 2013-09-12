@@ -1,8 +1,14 @@
-liblocal-lib-perl (1.008010-1~10.04~ppa1) lucid; urgency=low
+liblocal-lib-perl (1.008014-1) UNRELEASED; urgency=low
 
-  * Build for lucid.
+  * Update to latest upstream.
 
- -- Chris Weyl <rsrchboy@zeus>  Thu, 30 May 2013 19:59:41 -0700
+ -- Chris Weyl <cweyl@alumni.drew.edu>  Thu, 12 Sep 2013 13:46:07 -0700
+
+liblocal-lib-perl (1.008011-1) unstable; urgency=low
+
+  * Imported Upstream version 1.008011
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 07 Aug 2013 21:36:33 +0200
 
 liblocal-lib-perl (1.008010-1) unstable; urgency=low
 
